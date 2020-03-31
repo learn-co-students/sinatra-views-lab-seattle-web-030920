@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Today</h1>
+    <% time = Time.now %>
+    <% year = time.year %>
+    <% month = time.month %>   
+    <% day = time.day %>
+    <% wkday = time.wday %>
+    <p> The date is <%= Date.today.strftime("%A, %B %d, %Y") %></p>
+    <p> </p>
+  </body>
+</html>
